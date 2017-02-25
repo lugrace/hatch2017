@@ -10,7 +10,7 @@ var temps = [];
 var labels = [];
 
 for(var i = start; i < end; i+=day){
-  var url = "http://api.openweathermap.org/data/2.5/weather?q=Washington&mode=json&units=imperial&start="+i+"&appid="+mykey;
+  var url = "https://api.openweathermap.org/data/2.5/weather?q=Washington&mode=json&units=imperial&start="+i+"&appid="+mykey;
   //var url = "http://api.openweathermap.org/data/2.5/history/weather?q=Washington&mode=json&units=imperial&start="+i+"&appid="+mykey;
   $.getJSON(url, function(data) {
       //data is the JSON string

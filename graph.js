@@ -1,4 +1,4 @@
-var mykey = config.MY_APIKEY;
+
 var id = 5815135;
 var start = 1369728000;
 var cnt = 5; //One per hour

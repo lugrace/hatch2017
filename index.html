@@ -20,9 +20,17 @@
 
     <h3 style="display:inline;">Weather Thing</h3>
     <p>Hi Hatch :^)</p>
+    <br>
+
     <canvas id="myChart" width="600" height="400"></canvas>
     <script type='text/javascript' src="graph.js"></script>
-
+    <p id=info>Enter date like this: July 1, 1978 02:30:00</p>
+    <p>Note: Data only available every 3 hours</p>
+    <form id="frm1" action="/action_page.php">
+      First date: <input type="text" name="fdate"><br>
+      Last date: <input type="text" name="ldate"><br>
+      <input type="button" onclick="updateTemps()" value="Submit">
+    </form>
   </div>
 </body>
 </html>
